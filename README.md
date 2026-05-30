@@ -2,18 +2,6 @@
 
 Полноценный Todo List с REST API на Express, ORM Prisma и базой данных SQLite.
 
-## 🚀 Быстрый старт
-
-```bash
-# 1. Установить зависимости + создать БД
-npm run setup
-
-# 2. Запустить сервер
-npm run dev
-
-# 3. Открыть в браузере
-open http://localhost:3000
-```
 
 ## 📁 Структура проекта
 
@@ -21,7 +9,6 @@ open http://localhost:3000
 todo-app/
 ├── server.js              # Express сервер + REST API
 ├── package.json
-├── .env                   # DATABASE_URL и PORT
 ├── prisma/
 │   ├── schema.prisma      # Схема БД (модель Todo)
 │   └── dev.db             # SQLite файл (после npm run setup)
