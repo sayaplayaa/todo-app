@@ -77,4 +77,3 @@ model Todo {
   updatedAt DateTime @updatedAt
 }
 ```
-# todo-app
