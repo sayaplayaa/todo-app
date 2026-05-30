@@ -1,0 +1,21 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Todo List with Node.js, Prisma, SQLite",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "db:generate": "npx prisma generate",
+    "db:migrate": "npx prisma migrate dev --name init",
+    "db:studio": "npx prisma studio",
+    "setup": "npm install && npx prisma generate && npx prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
